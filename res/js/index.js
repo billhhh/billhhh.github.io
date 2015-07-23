@@ -1,11 +1,3 @@
-/*!
-* @Author: 卓文理 www.zwlme.com
-* @Email:  531840344@qq.com
-* @Date:   2015-03-16 18:06:40
-* @Last Modified by:   卓文理 www.zwlme.com
-* @Last Modified time: 2015-05-08 17:14:36
-*/
-
 var app = {
     init: function(){
         this.initPage();
