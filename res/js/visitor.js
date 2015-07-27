@@ -65,7 +65,7 @@ now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
 var visits = getCookie("counter")
 
 if (!visits)
-	visits = 157
+	visits = 1057
 
 else
 	visits = parseInt(visits) + 1
