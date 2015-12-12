@@ -1,4 +1,7 @@
-
+#welcome
+welcome:
+  - text: welcome
+    url: index.html
 
 
 # Where things are
