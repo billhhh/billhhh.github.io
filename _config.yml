@@ -1,0 +1,130 @@
+
+
+
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "/"      # does not include hostname
+
+# Outputting
+permalink:     /:year:month:day
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Bill Wang
+description: Bill's blog
+keywords: Bill Wang
+url: /
+feed: /atom.xml
+
+#Nav config
+nav:
+  - text: 首页
+    url: index.html
+  - text: 分类目录 
+    url: navigations/categories.html
+  - text: 文章归档
+    url: navigations/archives.html
+  - text: 联系我
+    url: navigations/contact.html
+  - text: 友情链接
+    url: navigations/links.html
+
+#Author config
+author:
+    name: billhhh
+    email: 371570273@qq.com
+    imageLink: https://avatars.githubusercontent.com/billhhh
+    CSDN blog: http://blog.csdn.net/scythe666
+    simpleIntro: This is bill
+    detailIntro:
+      <p>先自我介绍一下，我跟大家一样IT行业，酷爱技术，之前都是玩csdn博客，现在重开博客是为了在这边更为系统的整理代码，好给自己一个交代。</p>
+      <p>原始动力是看了一个叫【暮光：城中城】的IT小哥，这是他的<a href="http://www.zyplayer.com/">个人网站</a>，他把大学所有代码做了一个整理，直接刺激我来做这样一个个人博客，之后我会把我之前写的代码和心得博客做一个详细整理，把个人博客做的更加完善。</p>
+      <p>本人十分酷爱英语，同时兼做口译，英文影片配音，听译和字幕制作工作，有共同爱好的童鞋<a href="http://video.qupeiyin.cn/index.php?m=home&c=show&a=share&id=1030741">请戳</a>。</p>
+
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: //navigations/atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/315552559
+  - class: icon-renren
+    url: http://renren.com
+  - class: icon-github-alt
+    url: https://github.com/billhhh
+  - class: icon-twitter
+    url: https://twitter.com/BillScythe
+  - class: icon-google-plus
+    url: https://plus.google.com/106681629014523002465/posts
+
+#Links
+customLinks:
+  - item:
+    - text: 趣配音
+      url: http://video.qupeiyin.cn/index.php?m=home&c=show&a=share&id=2575207
+    - text: CSDN
+      url: http://blog.csdn.net/scythe666
+    - text: 电子发烧友
+      url: http://www.elecfans.com/
+    message: Friends
+  - item:
+    - text: 高策 Blog
+      url: http://gaocegege.com/
+    - text: 强弟 Blog
+      url: http://consiiii.me/
+    - text: jkxqj个人博客
+      url: http://jkxqj.pw/
+    - text: jkxqj CSDN博客
+      url: http://blog.csdn.net/jkxqj
+    message: Links
+
+#comment config
+disqus:
+  config: true
+  id: billhhh
+
+
+#################################### global configure #######################################
+
+username: billhhh
+baseurl: /
+markdown: redcarpet
+safe: false
+highlighter: pygments
+title: Bill's blog
+description: A Different Thinker
+theme: kunka
+disqusname: billhhh
+
